@@ -1,0 +1,19 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "^4.12.2",
+    "passport": "*",
+    "passport-facebook": "^2.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
