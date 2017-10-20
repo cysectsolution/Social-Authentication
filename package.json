@@ -12,7 +12,9 @@
     "express": "*",
     "mongoose": "^4.12.2",
     "passport": "*",
-    "passport-facebook": "^2.1.1"
+    "passport-facebook": "^2.1.1",
+    "passport-github2": "^0.1.11",
+    "passport-twitter": "^1.0.4"
   },
   "author": "",
   "license": "ISC"

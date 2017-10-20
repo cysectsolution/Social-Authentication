@@ -2,19 +2,20 @@ var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
 
 var userSchema = mongoose.Schema({
-    facebook:{
+    
         id:String,
-        username:String,
+        name:String,
         token:String,
-        email:String
+        email:String,
+        photo:String
 
-    }
+    
 });
 
 
 module.exports = mongoose.model('User',userSchema);
 
-module.exports.findOrCreate = function(user){
+module.exports.findOrCreate = function(user,cb){
     console.log(user)
 
 }
