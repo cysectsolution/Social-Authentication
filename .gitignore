@@ -1,2 +1,2 @@
-./login/configs/*
+/configs/config.js
 /node_modules/
